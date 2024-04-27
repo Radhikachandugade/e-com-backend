@@ -18,7 +18,7 @@ const app = express();
 app.use(express.json()); // Parsing http request body
 
 const corsOptions = {
-  origin: 'https://rshopstore.vercel.app',
+  origin: 'https://e-com-frontend-one.vercel.app/',
   credentials: true // if you're using cookies or sessions
 };
 
